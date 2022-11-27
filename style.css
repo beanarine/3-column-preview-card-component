@@ -78,13 +78,13 @@ body {
   --w-desktop: 1440px;
 }
 
-.wrapper {
+main {
   display: grid;
+  background-color: var(--color-neutral-500);
 }
 
 .cta {
   justify-self: center;
-  background-color: var(--color-neutral-500);
   display: grid;
   margin: 4rem 0;
 }
@@ -106,7 +106,7 @@ body {
 }
 
 @media screen and (min-width: 1440px) {
-  .wrapper {
+  main {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 33vh);
     grid-template-areas:
@@ -116,6 +116,7 @@ body {
   }
   .cta {
     grid-area: a;
+    margin: 0;
     grid-template-columns: repeat(3, 322px);
     justify-items: center;
     align-self: center;
