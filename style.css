@@ -91,7 +91,7 @@ body {
 
 .card {
   width: clamp(42ch, 50vw, 500px);
-  padding: 2.5rem 3.5rem;
+  padding: 4rem 3.5rem;
   display: grid;
   gap: 1.5rem;
   justify-items: left;
@@ -144,8 +144,8 @@ p {
   color: var(--color-neutral-200);
 }
 
-h2 {
-  font-size: calc(var(--fs-500) * 2);
+h1 {
+  font-size: calc(var(--fs-500) * 2.5);
   font-weight: var(--fw-700);
   font-family: var(--ff-700);
   color: var(--color-neutral-500);
